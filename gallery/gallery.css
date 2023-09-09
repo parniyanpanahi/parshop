@@ -1,0 +1,30 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.gallery{
+    height: 400px;
+    width: 800px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    gap: 5px;
+}
+.gallery img{
+    overflow: hidden;
+    object-fit: cover;
+cursor: pointer;
+flex: 1;
+transition: all 0.5s;
+}
+.gallery img:hover{
+    border-radius: 10px;
+    flex: 8;
+}

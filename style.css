@@ -1,0 +1,177 @@
+:root{
+    --main-color:#08cad1;
+    --sedondary-color:#00ffff;
+    --logo:url('....');
+}
+
+body{
+    /* background-image: var(--logo); */
+    min-height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    direction: rtl;
+    background-image: url(./img/41THX9+pXpL._AC_.jpg)
+    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.padding_tb{
+    padding: 10px 0;
+}
+.container{ 
+    margin:0 8%;
+
+}
+#menu{ height: 20px;
+    background-color: #ffb7c393;
+    padding: 24px 0;
+
+}
+.menu{
+    display: flex;
+justify-content: space-between;    
+}
+#header{
+height: 80vh;
+/* background-image: url(./img/bag.jfif) ,url(./img/wave.jfif);
+background-repeat: no-repeat;
+background-position: 80% bottom , bottom;
+background-size: 300px , 100%;
+  */
+}
+#items{
+    min-height: 100vh;
+    background-color: #fcf8f6;
+    text-align: center;
+    background-image: url(./img/gol2.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 500px;
+}
+.category_container{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+gap: 60px;
+}
+
+    .cards{
+        width: 250px;
+        height: 500px;
+        background-color: var(--main-color);
+        padding: 10px;
+        text-align: center;
+    }
+    .top{
+        height: 60%;
+        background-color: var(--main-color);
+    }
+    .bottom{
+        background-color: var(--main-color);
+        text-align: center;
+    }
+    .img{
+        height: 100%;
+        width: 100%;
+    }
+    
+#part1{
+min-height:70vh;
+background-color: #ffb7c35b;
+text-align: center;
+}
+.img_info{
+    height: 200px;
+width: 200px;
+    float: right;
+    margin: -5px 40px;
+}
+#part2{
+    /* min-height: 80vh; */
+    background-color: #ffb7c3;
+    text-align: center;
+    
+  }
+.off_container{
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+    padding: 10px 0 10px;
+}
+#title_margim{
+    margin: 4 0 -60 0;
+}
+
+.btn{
+background-color: rgb(83, 58, 124);
+color: aliceblue;
+width: 100%;
+padding: 10px 0;
+text-align: center;
+}
+.cards2{
+min-width: 250px;
+background-color:  var(--main-color);
+padding: 10px;
+text-align: center;
+margin: -10px 0;
+}
+
+.top2{
+height: 60%;
+background-color: var(--main-color);
+}
+.bottom2{
+
+background-color: var(--main-color);
+text-align: center;
+}
+#pars3{ 
+    min-height: 80vh;
+    background-color: #ffb7c3;
+    text-align: center;
+}
+.rang{
+    column-width: 700px;
+}
+#part4{
+    background-color: #ffb7c3;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.brands{
+    height: 150px;
+    width: 150px;
+
+}
+#brands{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: -10px;
+ 
+  }

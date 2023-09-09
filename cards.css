@@ -1,0 +1,56 @@
+body{
+    min-height: 100vh;
+    background-color: beige;
+    margin: 0;
+    direction: rtl;}
+    .cards{
+        width: 250px;
+        height: 500px;
+        background-color: pink;
+        padding: 10px;
+        text-align: center;
+    }
+    .top{
+        height: 60%;
+        background-color: pink;
+    }
+    .bottom{
+        height: 40%;
+        background-color: pink;
+        text-align: center;
+    }
+    img{
+        width: 100%;
+    }
+    .btn{
+background-color: rgb(83, 58, 124);
+color: aliceblue;
+width: 100%;
+padding: 10px 0;
+text-align: center;
+ }
+ .cards2{
+    width: 250px;
+    height: 550px;
+    background-color:  rgb(149, 250, 208);
+    padding: 10px;
+    text-align: center;
+    margin: -10px 0;
+}
+.top2{
+    height: 60%;
+    background-color: rgb(149, 250, 208);
+}
+.bottom2{
+    height: 40%;
+    background-color:  rgb(149, 250, 208);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
